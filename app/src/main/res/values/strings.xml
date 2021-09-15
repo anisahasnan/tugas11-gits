@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tugas11-AnisaHasna</string>
+    <string name="title">Selamat Datang di Spotipi!</string>
+    <string name="subtitle">Berikut kategori lagu yang kami miliki. \nKategori lagu apa yang ingin kamu dengar?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KpopActivity">
+
+    <TextView
+        android:id="@+id/judulLagu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lovable"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/penyanyi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kim Jong Kook"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/judulLagu"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/music"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/penyanyi"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/music"
+        android:layout_marginTop="30dp"
+        android:text="Play"
+        tools:ignore="HardcodedText"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="30dp"
+        android:text="Pause"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pause"
+        android:text="Stop"
+        android:layout_toRightOf="@+id/pause"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/switchVid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View MV >>"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/mainColor"/>
+
+</RelativeLayout>
